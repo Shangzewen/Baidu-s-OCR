@@ -1,0 +1,9 @@
+document.getElementById('startdate_job').value = '01-01-2015';
+document.getElementById('naam_werkgever_ld').value = 'Test';
+document.getElementById('plaats_werkgever_ld').value = 'Test';
+document.getElementById('functie_ld').value = 'Tester';
+document.getElementById('30_regeling').checked = true;
+function setSelectedIndex(s, v) {for (var i = 0; i < s.options.length; i++) {if (s.options[i].text == v) {s.options[i].selected = true;return;}}}setSelectedIndex(document.getElementById("monthmultiplier"), "month");document.getElementById('monthsalary').value = '3500';
+document.getElementById('enddate_ld_job').value = '01-01-2018';
+document.getElementById('loondienst_soort_0').checked = true;
+document.getElementById('loondienst_soort_1').checked = false;
